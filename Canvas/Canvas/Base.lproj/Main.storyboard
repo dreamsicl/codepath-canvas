@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -93,12 +93,36 @@
                         <action selector="didPanFace:" destination="BYZ-38-t0r" id="Pes-Zd-uqI"/>
                     </connections>
                 </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="73K-SS-XBB"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="M58-rH-CZL"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="yST-ft-1P7"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="WG3-xA-Hba"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="SQm-B7-w2x"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="QYd-se-Yfe"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="73K-SS-XBB">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="WlU-fV-s4W"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="M58-rH-CZL">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="HKQ-Yv-6Mp"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="yST-ft-1P7">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="hzj-Y9-U99"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="WG3-xA-Hba">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="oBa-7e-sRO"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="SQm-B7-w2x">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="xz4-n5-d0O"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="QYd-se-Yfe">
+                    <connections>
+                        <action selector="didPanFace:" destination="BYZ-38-t0r" id="45w-wu-3j2"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-62" y="137"/>
         </scene>
